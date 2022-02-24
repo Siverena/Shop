@@ -811,8 +811,7 @@ input[type=button] {
     .present__wrap {
       height: 363px;
       background-image: none;
-      margin: 0 auto;
-      width: 375px; }
+      margin: 0 auto; }
     .present__text {
       right: 53px;
       top: 154px;
@@ -1365,7 +1364,8 @@ input[type=button] {
   .subscribe {
     padding-top: 39px; }
     .subscribe__header {
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      font-size: 14px; }
   .feedback {
     padding-bottom: 108px; }
     .feedback__video {
@@ -1695,7 +1695,7 @@ input[type=button] {
     position: absolute;
     padding: 10px;
     z-index: 30;
-    top: 31px;
+    top: 17px;
     left: 0;
     width: 100%;
     min-width: 79px; }
@@ -2028,7 +2028,7 @@ input[type=button] {
     top: 288.5px; }
   .item__description {
     padding: 64px 24px;
-    margin: 0 -9px 64px; }
+    margin: 0 -7px 64px; }
   .item__cost {
     margin-bottom: 31px; }
   .item__line {
@@ -2151,7 +2151,8 @@ input[type=button] {
   .goods__text {
     margin-bottom: 6px; }
     .goods__text span {
-      color: #6F6E6E; }
+      color: #6F6E6E;
+      text-transform: uppercase; }
     .goods__text--price {
       margin-top: auto; }
       .goods__text--price span {
